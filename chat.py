@@ -1,4 +1,3 @@
-
 #讀取檔案
 def read_file(filename):
 	lines = []
@@ -27,7 +26,6 @@ def write_file(filename, lines):
 	with open(filename, 'w')as f:
 		for line in lines:
 			f.write(line + '\n')
-	print(lines)
 
 def main():
 	lines = read_file('input.txt')
